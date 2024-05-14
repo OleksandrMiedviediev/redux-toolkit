@@ -7,7 +7,7 @@ export default function Balance( ){
    const dispatch = useDispatch()
 const balance= useSelector ((state) => state.balance.value )
 
-const [value, SetValue] = useState();
+const [value, SetValue] = useState('');
 
     return(
         <div>
